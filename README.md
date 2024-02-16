@@ -8,13 +8,13 @@
 
 > *При запуске файла pong.c **режим игры будет покадрово**. Нужно каждый раз нажимать на **Enter** для продолжении игры:*
 > 
-- ***Управление** (для файла pong.c):***
+- ***Управление** (для файла pong.c)**:***
     - ***A**/**Z** и **K**/**M** для перемещения ракеток.*
     - ***Space Bar** для пропуска действия на очередном шаге игры в пошаговом режиме.*
 
 > *При запуске файла pong_interactive.c **режим игры будет в реальном времени.***
 > 
-- ***Управление** (для файла pong_interactive.c):***
+- ***Управление** (для файла pong_interactive.c)**:***
     - ***A**/**Z** и **K**/**M** для перемещения ракеток.*
 
 <aside>
@@ -24,10 +24,13 @@
 
 ## Как запустить (linux)
 
-- *Для запуска **покадровой** игры небходимо:*
-    1. `gcc -Wall -Wextra pong.c -o pong`
-    2. `./pong`
-- *Для запуска игры **в реальном времени** небходимо:*
-    1.  *Установить библиотеку **ncurses.h**:* `sudo apt-get install libncurses-dev`
-    2. `gcc Wall -Wextra pong_interactive.c -o pong_interactive -lncurses`
-    3. `./pong_interactive`
+*Для запуска **покадровой** игры небходимо:*
+
+1. `gcc -Wall -Wextra pong.c -o pong`
+2. `./pong` 
+
+*Для запуска игры **в реальном времени** небходимо:*
+
+1.  *Установить библиотеку **ncurses.h**:* `sudo apt-get install libncurses-dev`
+2. `gcc Wall -Wextra pong_interactive.c -o pong_interactive -lncurses`
+3. `./pong_interactive`
